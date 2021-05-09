@@ -16,7 +16,7 @@ createServer({
           title: 'Freelancer de website',
           type: 'deposit',
           category: 'Trabalho',
-          amount: 6000,
+          amount: 2000,
           createdAt: new Date('2021-02-12 09:00:00'),
         },
         {
@@ -30,7 +30,7 @@ createServer({
       ]
     });
   },
-  
+
   routes() {
     this.namespace = 'api';
 
